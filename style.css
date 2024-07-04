@@ -6,7 +6,7 @@
 
 body { 
   height: 100vh;
-  display:   flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -21,6 +21,7 @@ body {
   background-color: gray;
   border: 1px solid black;
   border-radius: 10px;
+  height: auto;
 }
 
 .screen { 
@@ -37,9 +38,8 @@ body {
   flex-direction: column;
   align-items: end;
   justify-content: center; 
-  text-wrap: wrap;
-  
-}
+  word-break: break-all;
+  }
 
 .button {
   width: 86px;
