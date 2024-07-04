@@ -47,6 +47,7 @@ function deleteLast(){
     display.textContent = display.textContent.substring(0, display.textContent.length - 1);
   }
 }
+
 function addDecimal() {
   if(!display.textContent.includes('.')) display.textContent += '.';
 }
