@@ -8,9 +8,10 @@ const operations = ['*','-','+','/']
 
 // EventListeners for KeyBoard & Mouse
 document.addEventListener('click', (e) => {
-
   const currentElement = e.target;
   const currentElementValue = currentElement.getAttribute('value');
+
+
   // Display & Visual Ability 
   if(currentElementValue === "clear" || display.textContent == "NaN") clearDisplay();
   if(currentElement.classList.contains('number')) appendNumber(currentElementValue);

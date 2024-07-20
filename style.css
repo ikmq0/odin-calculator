@@ -1,17 +1,17 @@
-* { 
-  font-family:'Courier New', Courier, monospace;
+* {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 35px;
   font-weight: bold;
 }
 
-body { 
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.frame { 
+.frame {
   display: flex;
   width: calc(94px*4);
   flex-wrap: wrap;
@@ -24,7 +24,7 @@ body {
   height: auto;
 }
 
-.screen { 
+.screen {
   min-width: calc(87px*4);
   text-align: end;
   background-color: antiquewhite;
@@ -37,9 +37,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: end;
-  justify-content: center; 
+  justify-content: center;
   word-break: break-all;
-  }
+}
 
 .button {
   width: 86px;
@@ -53,20 +53,18 @@ body {
   background-color: lightseagreen;
 }
 
-.button:active{ 
+.button:active {
   filter: brightness(125%);
 }
 
-.zero { 
+.zero {
   width: calc(90px*2);
 }
 
-.blue { 
+.blue {
   background-color: lightblue;
 }
 
 .operation {
   background-color: lightpink;
 }
-
-
